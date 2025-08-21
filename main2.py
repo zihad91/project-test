@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/message")
 def massage():
-    return {"message": "Fuck"}
+    return {"message": "Fuck you"}
