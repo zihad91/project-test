@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/message")
 def massage():
-    return {"message": "এ Mottaleb, my first app is dedicated to you!"}
+    return {"message": "Hello, this is a message endpoint!"}
